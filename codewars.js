@@ -70,16 +70,22 @@ function evalObject(a, b, operation) {
   switch (operation) {
     case "+":
       return a + b;
+      break;
     case "-":
       return a - b;
+      break;
     case "/":
       return a / b;
+      break;
     case "*":
       return a * b;
+      break;
     case "%":
       return a % b;
+      break;
     case "^":
       return Math.pow(a, b);
+      break;
   }
 }
 ///////// Are You Playing Banjo?
